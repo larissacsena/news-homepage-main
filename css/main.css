@@ -1,0 +1,40 @@
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+.main-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.main-titulo {
+  font-size: 3.5rem;
+  line-height: 1;
+  font-family: "Inter ExtraBold";
+}
+.main-texto {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #706d75;
+}
+.main-botao {
+  font-size: 0.875rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Inter SemiBold";
+  background: #f15d51;
+  color: white;
+  /* display: block; */
+  padding: 10px 30px;
+  align-self: start;
+  letter-spacing: 4px;
+}
+.main-readmore{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

@@ -1,0 +1,28 @@
+.section {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.section-name {
+  font-size: 2rem;
+  color: rgb(232, 173, 78);
+}
+.section ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 40px;
+}
+.section-text{
+  margin-top: 10px;
+  font-size: .875rem;
+  line-height: 1.5;
+}
+.section-line{
+  border-bottom: 1px white solid;
+  border-top: 1px white solid;
+  padding: 20px 0px;
+}

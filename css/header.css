@@ -1,0 +1,35 @@
+body{
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li{
+  margin: 0;
+  padding: 0;
+}
+ul,li{
+  list-style: none;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+.header-container{
+  padding: 40px 0;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.header-menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  color: #706D75;
+}
+

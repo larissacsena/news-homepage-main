@@ -1,0 +1,30 @@
+.footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.footer ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+.footer-content h3 {
+  font-family: "Inter ExtraBold";
+  font-size: 1.1rem;
+}
+.footer-content p {
+  margin-top: 10px;
+  font-size: 0.875rem;
+  color: #706d75;
+}
+.footer-content span {
+  font-family: "Inter SemiBold";
+  font-size: 2rem;
+  color: rgb(209, 209, 209);
+}
