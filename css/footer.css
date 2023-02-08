@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url(/fonts/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url(/fonts/static/Inter-Regular.ttf);
+}
+
 .footer {
   max-width: 1000px;
   margin: 0 auto;
@@ -15,7 +28,7 @@
   gap: 20px;
 }
 .footer-content h3 {
-  font-family: "Inter ExtraBold";
+  font-family: "Inter-ExtraBold";
   font-size: 1.1rem;
 }
 .footer-content p {
@@ -24,7 +37,12 @@
   color: #706d75;
 }
 .footer-content span {
-  font-family: "Inter SemiBold";
+  font-family: "Inter-Bold";
   font-size: 2rem;
   color: rgb(209, 209, 209);
+}
+@media (max-width:600px){
+  .footer ul{
+    grid-template-columns: 1fr;
+  }
 }

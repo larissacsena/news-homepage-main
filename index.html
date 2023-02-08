@@ -7,6 +7,7 @@
     <title>Document</title>
   </head>
   <body>
+    <script src="./script.js"></script>
     <header class="header">
       <div class="header-container">
         <img src="/images/logo.svg" alt="Logo Marca" width="65" height="auto" />
@@ -19,14 +20,34 @@
             <li>Categories</li>
           </ul>
         </nav>
+        
+        <button class="hamburguer" onclick="mostrarMenu()"><img src="./images/icon-menu.svg" alt="" /></button>
+
+        <nav class="hamburguer-lista">
+          <ul>
+            <li>Home</li>
+            <li>New</li>
+            <li>Popular</li>
+            <li>Treding</li>
+            <li>Categories</li>
+          </ul>
+        </nav>
       </div>
     </header>
     <main class="main">
       <div>
-        <img
-          src="/images/image-web-3-desktop.jpg"
+        <picture>
+          <source
+            srcset="./images/image-web-3-mobile.jpg"
+            media="(max-width: 600px)"
+          />
+          <img src="./images/image-web-3-desktop.jpg" alt="quebra cabeça" />
+        </picture>
+        <!-- <img
+          class="imagem-mobile"
+          src="/images/image-web-3-mobile.jpg"
           alt="quebra cabeça colorido"
-        />
+        /> -->
         <div class="main-container">
           <h1 class="main-titulo">The Bright Future of Web 3.0?</h1>
           <div class="main-readmore">
